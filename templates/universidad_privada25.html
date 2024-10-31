@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<center>
+<h2>Universidad Indigena Boliviana Aymara Tupac Katari</h2>
+
+<img src="{{ url_for('static', filename='images/LOGOS/UIBATK.png') }}" alt="Logo Universidad Privada 1" style="width:250px; height:auto; margin-top: 20px;">
+
+    <h2>CARRERAS</h2>
+</center>
+    <ul>
+        <B>Licenciatura</B>
+        <B>Licenciatura</B>
+        <li> - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li> - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    </ul>
+    <a href="{{ url_for('privadas') }}">
+        <button style="padding: 10px 20px; font-size: 16px;">Universidades Privadas</button>
+    </a><BR><BR>
+<b>Direccion: </b>Cuyahuani - Provincia Omasuyos - La Paz - Bolivia<br>
+<b>Contacto: </b>+591 2 2895296<br>
+{% endblock %}

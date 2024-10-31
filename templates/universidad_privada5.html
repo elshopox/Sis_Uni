@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<center>
+<h2>Universidad Privada Boliviana</h2>
+
+<img src="{{ url_for('static', filename='images/LOGOS/UPB.png') }}" alt="Logo Universidad Privada 1" style="width:250px; height:auto; margin-top: 20px;">
+
+    <h2>CARRERAS</h2>
+</center>
+    <ul>
+        <B>Ciencias Empresariales y Derecho</B>
+        <li>Administración de Empresas - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Comunicación - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Derecho - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Diseño Gráfico - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Economía - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Ingeniería Comercial - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Ingeniería Financiera - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Marketing & Logística - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Psicología Organizacional - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Relaciones y Negocios Internacionales - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <B>Ingenierias y Arquitectura</B>
+        <li>Arquitectura - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Civil - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Electromecánica - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Electrónica y Telecomunicaciones - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Industrial y de Sistemas - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Petróleo y Gas Natural - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Producción - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Sistemas Computacionales - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Sistemas Electrónicos y de Telecomunicaciones - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Medio Ambiente y Energías Alternativas - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <B>Posgrados</B>
+        <li>Olave School of Business  - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Ingeniería y Tecnología  - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Escuela de Graduados en Gestión Pública - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    </ul>
+    <a href="{{ url_for('privadas') }}">
+        <button style="padding: 10px 20px; font-size: 16px;">Universidades Privadas</button>
+    </a><BR><BR>
+<b>Direccion: </b>Mallasa - Achocallla, Km 3 5, La Paz<br>
+<b>Contacto: </b>2 2165700<br>
+{% endblock %}

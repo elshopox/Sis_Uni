@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Universitario</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema Universitario</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/quienes_somos">Quiénes Somos</a></li>
+                <li>
+                    <a href="#">Universidades</a>
+                    <ul>
+                        <li><a href="/universidades/publicas">Públicas</a></li><br>
+                        <li><a href="/universidades/privadas">Privadas</a></li>
+                    </ul>
+                </li>
+                <li>                    <!-- Formulario de búsqueda -->
+                    <form action="/buscador" method="POST" class="search-form">
+                        <input type="text" name="query" placeholder="Buscar universidades" required>
+                        <button type="submit">Buscar</button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <footer>
+        <p>&copy; UPEA - 2024 Sistema Universitario</p>
+    </footer>
+</body>
+</html>

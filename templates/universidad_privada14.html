@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<center>
+<h2>Universidad Privada San Francisco de Asis</h2>
+
+<img src="{{ url_for('static', filename='images/LOGOS/USFA.png') }}" alt="Logo Universidad Privada 1" style="width:250px; height:auto; margin-top: 20px;">
+
+    <h2>CARRERAS</h2>
+</center>
+    <ul>
+        <li>Administración de empresas - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Comunicación Social mención en Publicidad y Marketing - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Comunicación Social mención en Radio y Televisión - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Comunicación Social mención en Relaciones Públicas - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Derecho - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Ingeniería Comercial - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Ingeniería de Sistemas - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Psicología - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    </ul>
+    <a href="{{ url_for('privadas') }}">
+        <button style="padding: 10px 20px; font-size: 16px;">Universidades Privadas</button>
+    </a><BR><BR>
+<b>Direccion: </b>Frente a la Plaza Avaroa, Av. 20 de Octubre, esq. Belisario Salinas N°397, La Paz<br>
+<b>Contacto: </b>77719830<br>
+{% endblock %}

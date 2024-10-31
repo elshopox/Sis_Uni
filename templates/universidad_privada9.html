@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<center>
+<h2>Universidad Boliviana de Informatica</h2>
+
+<img src="{{ url_for('static', filename='images/LOGOS/UBI.png') }}" alt="Logo Universidad Privada 1" style="width:250px; height:auto; margin-top: 20px;">
+
+    <h2>CARRERAS</h2>
+</center>
+    <ul>
+        <li>Administración de Empresas - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Auditoría - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Derecho - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Ingeniería de Sistemas - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Psicología - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    </ul>
+    <a href="{{ url_for('privadas') }}">
+        <button style="padding: 10px 20px; font-size: 16px;">Universidades Privadas</button>
+    </a><BR><BR>
+<b>Direccion: </b>Av. Jorge Carrasco #88 esquina calle 6, Jorge Carrasco, El Alto<br>
+<b>Contacto: </b>2 2825226<br>
+{% endblock %}

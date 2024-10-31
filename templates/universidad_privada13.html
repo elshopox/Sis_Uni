@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<center>
+<h2>Universidad Nuestra Señora de La Paz</h2>
+
+<img src="{{ url_for('static', filename='images/LOGOS/UNSLP.png') }}" alt="Logo Universidad Privada 1" style="width:250px; height:auto; margin-top: 20px;">
+
+    <h2>CARRERAS</h2>
+</center>
+    <ul>
+        <B>Facultad de Medicina</B>
+        <li>Medicina - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Enfermería - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Instrumentación Quirúriga - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Fonoaudiología - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <B>Facultad de Ingeniería</B>
+        <li>Ingeniería Medio Ambiental - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Ingeniería de Sistemas - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Ingeniería de Alimentos - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Ingeniería Industrial - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <B>Facultad de Cs Políticas y Sociales</B>
+        <li>Cs Políticas y Sociales - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Derecho - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Comunicación Publicitaria - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Técnico Superior en Publicidad - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <B>Facultad de Arquitectura y Diseño</B>
+        <li>Arquitectura y Construcciones - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Diseño y Decoración de Interiores - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Diseño de Interiores Tec. Superior - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <B>Facultad de Odontología</B>
+        <li>Odontología - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <B>Facultad de Cs Administrativas y Económicas</B>
+        <li>Administración - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Comercio Exterior - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Economía - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Ingeniería Comercial - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <B>Cursos Virtuales</B>
+        <li>Programa de Psicología - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Curso virtual para Docentes de Medicina y Odontología - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Curso Virtual: Psicología Infantil - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Curso Virtual: Terapia de Familia  - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Curso Virtual: Terapia de Pareja  - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Curso Virtual Hipnosis Clínica - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <b>Programa de Ciencias Políticas</b>
+        <li>Curso Virtual: Bolivia y las Relaciones Internacionales dentro de América Latina y otros acuerdos comerciales actuales - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <b>Maestrias</b>
+        <li>Maestría en Administración de Empresas - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    </ul>
+    <a href="{{ url_for('privadas') }}">
+        <button style="padding: 10px 20px; font-size: 16px;">Universidades Privadas</button>
+    </a><BR><BR>
+<b>Direccion: </b>Calle Presbitero Medina No 2412 (Sopocachi)<br>
+<b>Contacto: </b>+591 2 242 2323<br>
+{% endblock %}

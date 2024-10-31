@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados de Búsqueda</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Resultados de Búsqueda para "{{ query }}"</h1>
+    </header>
+
+    <main>
+        <ul>
+        {% if resultados %}
+            {% for nombre, enlace in resultados.items() %}
+                <li><a href="{{ enlace }}">{{ nombre }}</a></li>
+            {% endfor %}
+        {% else %}
+            <p>No se encontraron resultados para "{{ query }}".</p>
+        {% endif %}
+        </ul>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sistema Universitario</p>
+    </footer>
+</body>
+</html>

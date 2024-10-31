@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<center>
+<h2>Universidad Saint Paul</h2>
+
+<img src="{{ url_for('static', filename='images/LOGOS/USP.png') }}" alt="Logo Universidad Privada 1" style="width:250px; height:auto; margin-top: 20px;">
+
+    <h2>CARRERAS</h2>
+</center>
+    <ul>
+        <B>FACULTAD DE INGENIERÍA</B>
+        <li>INGENIERÍA DE SISTEMAS - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>INGENIERÍA ELECTRÓNICA - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>INGENIERÍA CIVIL - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>INGENIERÍA INDUSTRIAL - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>INGENIERÍA DE ALIMENTOS - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <B>FACULTAD DE CIENCIAS SOCIALES</B>
+        <li>DERECHO - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>CIENCIAS DE LA EDUCACIÓN - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>COMUNICACIÓN SOCIAL - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>TURISMO - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <B>FACULTAD DE CIENCIAS ECONÓMICAS Y FINANCIERAS</B>
+        <li>ECONOMÍA - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>ADMINISTRACIÓN DE EMPRESAS - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>CONTADURÍA PUBLICA - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <B>FACULTAD DE CIENCIAS DE LA SALUD</B>
+        <li>MEDICINA - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>ODONTOLOGÍA - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>ENFERMERIA - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li> - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    </ul>
+    <a href="{{ url_for('privadas') }}">
+        <button style="padding: 10px 20px; font-size: 16px;">Universidades Privadas</button>
+    </a><BR><BR>
+<b>Direccion: </b>Dirección: Yanacocha Nº 875<br>
+<b>Contacto: </b>228-0787<br>
+{% endblock %}

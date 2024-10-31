@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<center>
+<h2>Universidad de la Cordillara</h2>
+
+<img src="{{ url_for('static', filename='images/LOGOS/UCORDILLERA.png') }}" alt="Logo Universidad Privada 1" style="width:250px; height:auto; margin-top: 20px;">
+
+    <h2>CARRERAS</h2>
+</center>
+    <ul>
+
+    </ul>
+    <a href="{{ url_for('privadas') }}">
+        <button style="padding: 10px 20px; font-size: 16px;">Universidades Privadas</button>
+    </a><BR><BR>
+<b>Direccion: </b>c. Mendez Arcos, esq. Miguel de Cervantes Nº 776<br>
+<b>Contacto: </b>78981958<br>
+{% endblock %}

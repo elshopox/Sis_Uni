@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<center>
+    <h2>Universidad Autónoma del Beni José Ballivián</h2>
+
+    <img src="{{ url_for('static', filename='images/LOGOS/UABJB.png') }}" alt="Logo Universidad Privada 1" style="width:250px; height:auto; margin-top: 20px;">
+
+        <h2>CARRERAS</h2>
+</center>
+<ul>
+    <B>Facultad de Ciencias Pecularias</B>
+    <li>Veterinaria y Zootecnia - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <B>Facultad de Ciencias Agricolas</B>
+    <li>Ingenieria Agronomica - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <li>Agropecuaria - <a href="/static/archivos/pensum.pdf">Ver Pensum</a></li>
+    <B>Facultad de Ingenieria y Tecnologia</B>
+    <li>Ingenieria Civil - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <li>Ingenieria de Sistemas - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <B>Facultad de Ciencias de la Salud</B>
+    <li>Enfermeria - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <li>Bioquimica y Farmacia - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <li>Medicina - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>   
+    <B>Facultad de Ciencias Economicas</B>
+    <li>Administracion de Empresas - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <li>Contaduria Publica - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>    
+    <li>Economia - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <B>Facultad de Humanidades y Ciencias de la Educacion</B>
+    <li>Ciencias de la Educacion - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <li>Turismo - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <li>Pedagogia - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <B>Facultad de Ciencias Politicas, Juridicas y Sociales</B>
+    <li>Derecho - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <li>Ciencias de la Comunicacion Social - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <B>Facultad de Ciencias Forestales</B>
+    <li>Ingenieria Forestal - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <li>Ingenieria Forestales - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <B>Posgrados</B>
+    <li>Diplomado en Educacion Superior - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <li>Diplomado en Seguridad Informatica - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <li>Maestria en Educacion Superior - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+</ul>
+<a href="{{ url_for('publicas') }}">
+    <button style="padding: 10px 20px; font-size: 16px;">Universidades Publicas</button><br><br>
+</a>
+
+<b>Direccion: </b>Av. 6 de Agosto, Ed. Antonio Vaca Díez, Nº 61<br>
+<b>Contactos: </b>69656124<br>
+{% endblock %}

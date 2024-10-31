@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<center>
+    <h2>Universidad Nacional Siglo XX</h2>
+
+    <img src="{{ url_for('static', filename='images/LOGOS/UNSXX.png') }}" alt="Logo Universidad Privada 1" style="width:250px; height:auto; margin-top: 20px;">
+
+        <h2>CARRERAS</h2>
+</center>
+<ul>
+    <B>Area Salud</B>
+    <li>Bioquimica - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <li>Odontologia - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <li>Enfermeria - <a href="/static/archivos/pensum.pdf">Ver Pensum</a></li>
+    <li>Medicina - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <li>Loboratorio Clinico - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>    
+    <B>Area Tecnologica</B>
+    <li>Civil - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <li>Agronomia - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <li>Informatica - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>   
+    <li>Mecanica Automotriz - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <li>Minas Topografia - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>    
+    <li>Electromecanica - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <B>Area Sociales</B>
+    <li>Ciencias de la Educacion - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <li>Contaduria Publica - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <li>Derecho - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <li>Comunicacion Social - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <B>Doctorados</B>
+    <li>Doctorado en Psicologia - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <li>Doctorado en Salud Publica - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <li>Doctorado en Educacion Superior y Gestion Universitaria - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <B>Maestrias</B>
+    <li>Maestria en Administracion de Empresas - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <li>Maestria en Gestion de Farmacias y Control de Medicamentos - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <li>Maestria en Educacion Superior - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <B>Formacion Virtual</B>
+    <li>Diplomado en uso de Tic's e Innovacion para la Educacion Superior - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <li>Maestria en Educacion Superior - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <li>Maestria en Gestion de Farmacias y Control de Medicamentos  - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <li>Maestria en Administracion de Empresas - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <li>Maestria en Gestion de Farmacias y Control de Medicamentos - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    <li>Doctorado en Salud Publica - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+</ul>
+<a href="{{ url_for('publicas') }}">
+    <button style="padding: 10px 20px; font-size: 16px;">Universidades Publicas</button><br><br>
+</a>
+
+<b>Direccion: </b>Ed. Camiri c. Comercio Esq. Yanacocha La Paz-Bolivia<br>
+<b>Contacto: </b>02-2406090<br>
+{% endblock %}

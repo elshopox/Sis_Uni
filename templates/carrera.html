@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>{{ universidad['nombre'] }}</h2>
+<ul>
+    {% for carrera in universidad['carreras'] %}
+        <li>{{ carrera['nombre'] }} - <a href="{{ url_for('static', filename=carrera['pensum']) }}" target="_blank">Ver Pensum</a></li>
+    {% endfor %}
+</ul>
+{% endblock %}

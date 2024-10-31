@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<center>
+<h2>Universidad Indigena Tawantinsuyu</h2>
+
+<img src="{{ url_for('static', filename='images/LOGOS/UIT.png') }}" alt="Logo Universidad Privada 1" style="width:250px; height:auto; margin-top: 20px;">
+
+    <h2>CARRERAS</h2>
+</center>
+    <ul>
+        <B>Se dictan las siguientes Carreras, Maestrías, Cursos, Postgrados y Doctorados</B>
+        <li>Diplomado en Sistema de Lectura y Escritura Braille y su Aplicación Educativa - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Diplomado en Lengua de Señas Boliviana - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Diplomado en el Manejo de Programas Tecnológicos para la Producción de Materiales Educativos - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Doctorado en Pedagogía de la Descolonización - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    </ul>
+    <a href="{{ url_for('privadas') }}">
+        <button style="padding: 10px 20px; font-size: 16px;">Universidades Privadas</button>
+    </a><BR><BR>
+<b>Direccion: </b>Ed. Camiri c. Comercio La Paz-Bolivia<br>
+<b>Contacto: </b>02-2206090<br>
+{% endblock %}

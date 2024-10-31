@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<center>
+<h2>Universidad de los Andes</h2>
+
+<img src="{{ url_for('static', filename='images/LOGOS/UDELOSANDES.png') }}" alt="Logo Universidad Privada 1" style="width:250px; height:auto; margin-top: 20px;">
+
+    <h2>CARRERAS</h2>
+</center>
+    <ul>
+        <B>ESCUELA DE NEGOCIOS</B>
+        <li>DIAGNÓSTICO Y REPARACIÓN DE TRANSMISIONES AUTOMATICAS CVT - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>PSICOMOTROCIDAD INFANTIL Y ÚLTIMAS TÉCNICAS DE ESTIMULACIÓN - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>ESCRITURA ACADÉMICA - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>MAQUILLAJE SMOKEY GLAM - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>DIAGNÓSTICO POR OBDII CON X-431 PRO V4.0 SERIES - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>TRADICIONES PACEÑAS - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <B>POSGRADOS</B>
+        <li>AUTOTRÓNICA - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>EDUCACIÓN SUPERIOR - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>ADMINISTRACIÓN DE EMPRESAS Y ESTRATEGIA GERENCIAL - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>DERECHO TRIBUTARIO - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>DERECHO LABORAL Y PROCEDIMIENTO LABORAL - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>DERECHO ADUANERO - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>GESTIÓN DE RIESGOS Y ANÁLISIS CREDITICIO - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>CURSO DE ACTUALIZACIÓN DOCENTE - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>DERECHO PENAL Y DERECHO PROCESAL PENAL - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>MARKETING DIGITAL - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <B>MAESTRÍAS</B>
+        <li>MAESTRÍA EN ADMINISTRACIÓN DE EMPRESAS (MBA) - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    </ul>
+    <a href="{{ url_for('privadas') }}">
+        <button style="padding: 10px 20px; font-size: 16px;">Universidades Privadas</button>
+    </a><BR><BR>
+<b>Direccion: </b>Av. Los Leones Nº 10 y Curva de Holguin (zona Obrajes)<br>
+<b>Contacto: </b>(2) 2787308 - (2) 2787135<br>
+{% endblock %}

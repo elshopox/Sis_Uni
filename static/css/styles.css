@@ -1,0 +1,180 @@
+/* Estilos generales del cuerpo */
+body {
+    font-family: Arial, sans-serif; /* Tipografía */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Color de fondo */
+    display: flex; /* Usar flexbox */
+    flex-direction: column; /* Dirección de la columna */
+    min-height: 100vh; /* Altura mínima igual a la altura de la ventana */
+}
+
+/* Estilo del encabezado */
+header {
+    background: #333333; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto */
+    padding: 10px 0; /* Espaciado interno */
+}
+
+/* Estilo del menú de navegación */
+nav {
+    margin: 0 auto; /* Centrar el menú */
+}
+
+nav ul {
+    list-style: none; /* Quitar los puntos de la lista */
+    padding: 0; /* Sin padding */
+}
+
+/* Estilo de los elementos del menú */
+nav ul li {
+    display: inline-block; /* Mostrar en línea */
+    margin-right: 20px; /* Espacio entre elementos */
+    position: relative; /* Para el submenú */
+}
+
+/* Estilo de los enlaces */
+nav ul li a {
+    text-decoration: none; /* Sin subrayado */
+    color: #fff; /* Color del texto */
+    padding: 10px 15px; /* Espaciado interno */
+    border-radius: 4px; /* Bordes redondeados */
+    transition: background 0.3s; /* Transición suave */
+}
+
+/* Estilo del enlace al pasar el ratón */
+nav ul li a:hover {
+    background: #555; /* Cambiar el color de fondo al pasar el ratón */
+}
+
+/* Estilos del submenú */
+nav ul li ul {
+    display: none; /* Ocultar el submenú por defecto */
+    position: absolute; /* Posicionar el submenú */
+    background-color: #333; /* Color de fondo del submenú */
+    padding: 10px 0; /* Espaciado interno */
+    z-index: 1000; /* Asegurar que esté en la parte superior */
+}
+
+/* Mostrar el submenú al pasar el ratón sobre el elemento principal */
+nav ul li:hover ul {
+    display: block; /* Mostrar el submenú */
+}
+
+/* Estilo de los elementos del submenú */
+nav ul li ul li {
+    display: block; /* Mostrar en bloque */
+}
+
+/* Estilo de los enlaces del submenú */
+nav ul li ul li a {
+    padding: 10px 15px; /* Espaciado interno */
+    color: white; /* Color del texto */
+}
+
+/* Estilo del enlace del submenú al pasar el ratón */
+nav ul li ul li a:hover {
+    background-color: #444; /* Cambiar el fondo al pasar el ratón */
+}
+
+/* Estilo del contenido principal */
+main {
+    padding: 20px; /* Espaciado interno */
+    max-width: 800px; /* Ancho máximo del contenido */
+    margin: 20px auto; /* Centrar el contenido */
+    background-color: white; /* Fondo blanco para el contenido */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    flex: 1; /* Hacer que el main tome el espacio restante */
+}
+
+/* Estilo del pie de página */
+footer {
+    text-align: center; /* Centrar el texto */
+    padding: 10px 0; /* Espaciado interno */
+    background: #333; /* Color de fondo */
+    color: #fff; /* Color del texto */
+}
+
+
+
+
+
+
+/* Estilo del formulario de búsqueda */
+form {
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+/* Estilos para centrar y alinear el formulario de búsqueda */
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-form input[type="text"] {
+    padding: 5px;
+    margin-right: 10px; /* Espacio entre el input y el botón */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-form button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+main ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+main ul li {
+    margin: 10px 0;
+}
+
+main ul li a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+main ul li a:hover {
+    text-decoration: underline;
+}

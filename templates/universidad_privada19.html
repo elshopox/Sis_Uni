@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<center>
+<h2>Universidad Tecnologica Boliviana</h2>
+
+<img src="{{ url_for('static', filename='images/LOGOS/UTB.png') }}" alt="Logo Universidad Privada 1" style="width:250px; height:auto; margin-top: 20px;">
+
+    <h2>CARRERAS</h2>
+</center>
+    <ul>
+        <li>Ventas y Comercialización - <a href="/static/archivos/VENTAS Y COMERSIOS - UTB.pdf">Ver Pensum</a></li>
+        <li>Comunicación y Tecnologías Digitales - <a href="/static/archivos/Comunicacion y Tecnologias Digitales - UTB.pdf">Ver Pensum</a></li>
+        <li>Marketing y Dirección Comercial - <a href="/static/archivos/Marketing - UTB.pdf">Ver Pensum</a></li>
+        <li>Psicología - <a href="/static/archivos/PSICOLOGIA - UTB.pdf">Ver Pensum</a></li>
+        <li>Turismo y Hotelería - <a href="/static/archivos/TURISMO - UTB.pdf">Ver Pensum</a></li>
+        <li>Ingeniería Comercial - <a href="/static/archivos/Ingenieria Comercial - UTB.pdf">Ver Pensum</a></li>
+        <li>Comercio Internacional - <a href="/static/archivos/Comercio Internacional - UTB.pdf">Ver Pensum</a></li>
+        <li>Ingeniería Electrónica - <a href="/static/archivos/ING ELECTRONICA - UTB.pdf">Ver Pensum</a></li>
+        <li>Ingeniería de Sistemas - <a href="/static/archivos/ING EN SISTEMAS - UTB.pdf">Ver Pensum</a></li>
+        <li>Ingeniería Civil - <a href="/static/archivos/Ingenieria Civil - UTB.pdf">Ver Pensum</a></li>
+        <li>Ingeniería en Ecología y Medio Ambiente - <a href="/static/archivos/ING EN ECOLOGIA - UTB.pdf">Ver Pensum</a></li>
+        <li>Derecho - <a href="/static/archivos/Derecho - UTB.pdf">Ver Pensum</a></li>
+        <li>Contaduría Pública - <a href="/static/archivos/Contaduria Publica - UTB.pdf">Ver Pensum</a></li>
+        <li>Administración de Empresas - <a href="/static/archivos/Administracion de Empresas - UTB.pdf">Ver Pensum</a></li>
+        <B>Diplomados</B>
+        <li>Prevención de Riesgos, Seguridad y Salud Ocupacional - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Diseño de Construcción de Puentes Prefabricados y Análisis de Riesgo Sísmico - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Didáctica y Psicología aplicada a la Educación Virtual Tecnológica e Investigativa - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Arquitectura y diseño de Hospitales de mediana y alta Complejidad - <a href="/static/archivos/ARQUITECTURA - UTB.pdf">Ver Pensum</a></li>
+        <li>Auditoria de Procesos Jurídicos - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Ciberseguridad y Protección de Datos Personales - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Derecho Laboral Empresarial - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Educación Superior - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Gerencia de Proyectos - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Gerencia y Administración de Hospitales de Mediana y Alta Complejidad - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Gestión Tributaria Sistema Impositivo Nacional - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Derecho Constitucional - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <B>Maestrias</B>
+        <li>Maestría en Ingeniería de Sistemas Empresariales - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Maestría en Evaluación Ambiental - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Maestría en Ciencias Penales y Forenses - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Maestría en Dirección y Administración de Empresas PyMES - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+        <li>Maestría en Comercio Exterior y Logística Internacional - <a href="/static/archivos/INFORMATICA - UMSA.pdf">Ver Pensum</a></li>
+    </ul>
+    <a href="{{ url_for('privadas') }}">
+        <button style="padding: 10px 20px; font-size: 16px;">Universidades Privadas</button>
+    </a><BR><BR>
+<b>Direccion: </b>C. Colombia 154, La Paz<br>
+<b>Contacto: </b>2 2180808<br>
+{% endblock %}
