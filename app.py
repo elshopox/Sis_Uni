@@ -3,8 +3,8 @@ from flask import Flask, render_template, request
 app = Flask(__name__)
 
 universidades = {
-    'UPEA': '/universidades/publicas/universidad1',
-    'UMSA': '/universidades/publicas/universidad2',
+    'UMSA': '/universidades/publicas/universidad1',
+    'UPEA': '/universidades/publicas/universidad2',
     'UABJB': '/universidades/publicas/universidad3',
     'UASB': '/universidades/publicas/universidad4',
     'UNSXX': '/universidades/publicas/universidad5',
